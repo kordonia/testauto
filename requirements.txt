@@ -1,0 +1,3 @@
+time
+pyupbit==0.2.19
+datetime
