@@ -33,7 +33,7 @@ def get_current_price(ticker):
     """현재가 조회"""
     return pyupbit.get_orderbook(tickers=ticker)[0]["orderbook_units"][0]["ask_price"]
 
-# 로그인
+# 로그인  ㅇㅇㅇㅇ
 upbit = pyupbit.Upbit(access, secret)
 print("autotrade start")
 start_time = datetime.datetime.now()
